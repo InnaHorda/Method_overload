@@ -12,7 +12,7 @@ namespace Method_overload
             {
                 if (i<Name.Length-1)
                 {
-          Console.Write(Name[i]+ ",");
+          Console.Write(" List name: " +Name[i]+ ",");
                 }else
                     Console.Write(Name[i] + "\n");
 
@@ -25,7 +25,7 @@ namespace Method_overload
             {
                 if (i < Name.Length - 1)
                 {
-                    Console.Write(Name[i] + S.ToString() + " ");
+                    Console.Write(" List name: " +Name[i] + S.ToString() + " ");
                 }
                 else
                     Console.Write(Name[i] + "\n");
